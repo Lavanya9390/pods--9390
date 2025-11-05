@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: mydemo-pod
   labels:
-    app:demo-app
+    app: demo-app
   annotations: 
     myecr: 934545598565.dkr.ecr.eu-north-1.amazonaws.com/myannotationsimage
     service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing

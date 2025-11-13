@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: myjava-container
-          image: kolakavya/javarepo:javadevenv   
+          image: 934545598565.dkr.ecr.eu-north-1.amazonaws.com/myapp/k8s:latest  
           ports:
             - containerPort: 8080
           livenessProbe:
